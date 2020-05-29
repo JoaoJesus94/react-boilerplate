@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Sample from './components/Sample'
 
-const App = a => <Sample />
+import { AppRouter } from './routers/AppRouter'
+
+const App = () => <AppRouter />
 
 ReactDOM.render(<App />, document.getElementById('root'))
